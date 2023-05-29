@@ -5,21 +5,22 @@
 		"id": "example_mod",
 		"version": "${version}",
 		"metadata": {
-			"name": "Mod Name",
-			"description": "A short description of your mod.",
+			"name": "charon",
+			"description": "Ferries block data to the nondestructive editor `unded`.",
 			"contributors": {
-				"Your name here": "Owner"
+				"jumble": "Owner"
 			},
 			"contact": {
 				"homepage": "https://example.com/",
-				"issues": "https://github.com/QuiltMC/quilt-template-mod/issues",
-				"sources": "https://github.com/QuiltMC/quilt-template-mod"
+				"issues": "https://github.com/jumble/charon/issues",
+				"sources": "https://github.com/jumble/charon"
 			},
-			"icon": "assets/example_mod/icon.png"
+			"icon": "assets/example_mod/icon.png",
+			"license": "MIT"
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "com.example.example_mod.ExampleMod"
+			"init": "com.jumble.charon.Charon"
 		},
 		"depends": [
 			{
