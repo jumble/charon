@@ -2,7 +2,7 @@
 	"schema_version": 1,
 	"quilt_loader": {
 		"group": "com.example",
-		"id": "example_mod",
+		"id": "charon",
 		"version": "${version}",
 		"metadata": {
 			"name": "charon",
@@ -15,7 +15,7 @@
 				"issues": "https://github.com/jumble/charon/issues",
 				"sources": "https://github.com/jumble/charon"
 			},
-			"icon": "assets/example_mod/icon.png",
+			"icon": "assets/charon/icon.png",
 			"license": "MIT"
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
@@ -37,5 +37,5 @@
 			}
 		]
 	},
-	"mixin": "example_mod.mixins.json"
+	"mixin": "charon.mixins.json"
 }
